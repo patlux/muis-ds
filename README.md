@@ -32,6 +32,12 @@ Get an visual overview of the project graph
 bunx nx graph
 ```
 
+### Create Release & Publish
+
+```sh
+bunx nx release
+```
+
 ## Bootstrap
 
 ```sh

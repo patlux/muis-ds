@@ -1,0 +1,42 @@
+{
+  "name": "@muis/core",
+  "version": "0.0.0",
+  "type": "module",
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "repository": "https://github.com/patlux/muis-ds",
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "build": "tsup ./src/index.ts --dts --format esm,cjs",
+    "pack": "bun pm pack"
+  },
+  "exports": {
+    "import": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "require": {
+      "types": "./dist/index.d.cts",
+      "default": "./dist/index.cjs"
+    }
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "tsup": "^8.4.0"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.4.6"
+  }
+}

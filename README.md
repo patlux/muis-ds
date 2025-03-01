@@ -8,6 +8,12 @@ Used tools
 - [nx](https://nx.dev): monorepo management
 - [tsup](https://tsup.egoist.dev/): Build library (cjs and esm)
 
+## Live Demo
+
+https://patlux.github.io/muis-ds/
+
+The source of the live demo is under [./apps/web](./apps/web)
+
 ## How to use
 
 [core](./libs/core): contains the core components

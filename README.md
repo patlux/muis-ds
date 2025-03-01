@@ -8,6 +8,22 @@ Used tools
 - [nx](https://nx.dev): monorepo management
 - [tsup](https://tsup.egoist.dev/): Build library (cjs and esm)
 
+## How to use
+
+[core](./libs/core): contains the core components
+
+```sh
+# create a .npmrc with the following content:
+@patlux:registry=https://npm.pkg.github.com
+
+# create a new react project
+# then install the package: 
+bun add @patlux/muis-core # or with npm, yarn, pnpm
+
+# in index.tsx
+import { MUISButton } from '@patlux/muis-core'
+```
+
 ## Development
 
 Get an visual overview of the project graph

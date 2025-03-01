@@ -1,5 +1,5 @@
 {
-  "name": "@muis/web",
+  "name": "@patlux/muis-web",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -13,7 +13,7 @@
   "dependencies": {
     "react": "^19",
     "react-dom": "^19",
-    "@muis/core": "*"
+    "@patlux/muis-core": "*"
   },
   "devDependencies": {
     "@types/react": "^19",

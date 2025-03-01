@@ -1,16 +1,12 @@
 {
-  "name": "@muis/core",
-  "version": "0.0.0",
+  "name": "@patlux/muis-core",
+  "version": "0.0.1",
   "type": "module",
   "files": [
     "dist",
     "package.json"
   ],
   "repository": "https://github.com/patlux/muis-ds",
-  "publishConfig": {
-    "access": "restricted",
-    "registry": "https://npm.pkg.github.com"
-  },
   "scripts": {
     "build": "tsup ./src/index.ts --dts --format esm,cjs",
     "pack": "bun pm pack"

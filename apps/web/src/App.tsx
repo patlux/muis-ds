@@ -1,5 +1,5 @@
 import "./index.css";
-import { MUISButton } from '@muis/core'
+import { MUISButton } from '@patlux/muis-core'
 
 export function App() {
   return (

@@ -2,6 +2,9 @@
   "name": "muis-ds",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "build": "nx run-many -t build"
+  },
   "workspaces": [
     "apps/*",
     "libs/*"
